@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tictactoe_bg"
+    android:gravity="top"
+
+
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+
+        app:srcCompat="@drawable/tictactoe" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/btn1"
+            android:onClick="Check"
+            app:backgroundTint="#FFC107"
+            app:backgroundTintMode="add"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginLeft="11dp"
+            android:onClick="Check"
+            app:backgroundTint="#FFC107"
+            app:backgroundTintMode="add"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginLeft="11dp"
+            android:onClick="Check"
+            app:backgroundTint="#FFC107"
+            app:backgroundTintMode="add"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:onClick="Check"
+            app:backgroundTint="#FFC107"
+            app:backgroundTintMode="add"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_marginLeft="11dp"
+            android:onClick="Check"
+            app:backgroundTint="#FFC107"
+            app:backgroundTintMode="add"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_marginLeft="11dp"
+            android:onClick="Check"
+            app:backgroundTint="#FFC107"
+            app:backgroundTintMode="add"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:onClick="Check"
+            app:backgroundTint="#FFC107"
+            app:backgroundTintMode="add"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_marginLeft="11dp"
+            android:onClick="Check"
+            app:backgroundTint="#FFC107"
+            app:backgroundTintMode="add"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_marginLeft="11dp"
+            android:onClick="Check"
+            app:backgroundTint="#FFC107"
+            app:backgroundTintMode="add"
+            app:cornerRadius="30dp" />
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:text="Reset"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="#D31A59"
+        app:backgroundTintMode="add"
+        app:cornerRadius="20dp" />
+
+
+
+
+</LinearLayout>
